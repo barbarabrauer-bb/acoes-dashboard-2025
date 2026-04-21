@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/barbarasoaresbrauer/Library/Python/3.9/bin/streamlit run *)",
+      "Bash(curl -s http://localhost:8501)",
+      "Bash(gh auth *)",
+      "Bash(brew install *)",
+      "Bash(curl -sL https://github.com/cli/cli/releases/download/v2.68.1/gh_2.68.1_macOS_amd64.tar.gz -o /tmp/gh.tar.gz)",
+      "Bash(tar -xzf /tmp/gh.tar.gz -C /tmp)",
+      "Bash(sudo mv *)",
+      "Bash(curl -sL \"https://github.com/cli/cli/releases/download/v2.68.1/gh_2.68.1_macOS_amd64.zip\" -o /tmp/gh.zip)",
+      "Bash(unzip -q /tmp/gh.zip -d /tmp/gh_extracted)",
+      "Read(//tmp/**)",
+      "Bash(sudo cp *)",
+      "Bash(gh --version)",
+      "Bash(mkdir -p ~/bin)",
+      "Bash(cp /tmp/gh_extracted/gh_2.68.1_macOS_amd64/bin/gh ~/bin/gh)",
+      "Bash(~/bin/gh --version)",
+      "Bash(~/bin/gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
